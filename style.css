@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.pai {
+    margin: 7vw;
+    display: inline-flex;
+    
+}
+.html {
+    width: 340px;
+    height: 200px;
+    border: 4px solid #363636;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 0 0 2rem;
+    box-sizing: border-box;
+}
+.css {
+    width: 340px;
+    height: 200px;
+    border: 4px solid #8B008B;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 0 0 2rem;
+    box-sizing: border-box;
+}
+.js {
+    width: 340px;
+    height: 200px;
+    border: 4px solid #1ab80b;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 0 0 2rem;
+    box-sizing: border-box;
+}
+.html {
+    margin-bottom: 1rem;
+}
+.css {
+    margin-bottom: 1rem;
+}
+.js {
+    margin-bottom: 1rem;
+}

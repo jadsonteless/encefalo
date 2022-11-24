@@ -1,0 +1,79 @@
+/* CONFIGURAÇÃO GERAL*/
+* {
+    color: aliceblue;
+    background-color: #1C1C1C;
+    margin: 0;
+    padding: 0;
+}
+/*-------------------------------------*/
+.divisor {
+    height: 2px;
+    display: flex;
+    margin: 0 1rem 0 1rem;
+    background-color: #8B008B;
+    
+}
+h1 {
+    color: #8B008B;
+    margin: 1%;
+}
+p {
+    margin: 3rem 1rem 3rem 1rem;
+    font-size: 1rem;
+    width: 90vw;
+}
+pre {
+    background-color: #363636;
+    border: 1px solid transparent;
+    margin: 0 0 1rem 1rem;
+    padding: 1rem;
+    font-size: 0,5rem;
+    width: 80vw;
+    white-space: pre-line;
+}
+/* CONFIGURAÇÃO DE EXEMPLOS */
+.exp1 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin: 5%;
+    padding: 0px 20px;
+    /* Sem utilizar o box-sizing */
+}
+.exp2 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin: 5%;
+    padding: 0px 20px;
+    box-sizing: border-box; /* Todo o conteudo volta a ter o 100px padrao de largura e altura */
+}
+/* PERSONALIZAÇÃO DE CODIGOS CSS*/
+code {
+    background-color: #363636;
+    color:azure;
+}
+.token-chaves {
+    color: #FFFF00;
+    background-color: #363636;
+}
+.token-propriedade {
+    color: lightskyblue;
+    background-color: #363636;
+}
+.token-datatype {
+    color: lightgreen;
+    background-color: #363636;
+}
+.token-atribut {
+    color: sandybrown;
+    background-color: #363636;
+}
+.token-commit {
+    color: lime;
+    background-color: #363636;
+}
+.token-seta-direita {
+    color: lime;
+    background-color: #363636;
+}

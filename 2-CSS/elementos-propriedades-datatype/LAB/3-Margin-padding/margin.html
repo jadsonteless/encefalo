@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Margin</h1>
+    <span class="divisor"></span>
+    <p>** Espaços entre os elementos</p>
+    <div>
+        <ul>Propriedades:
+            <li>margin-top</li>
+            <li>margin-right</li>
+            <li>margin-botton</li>
+            <li>margin-left</li>
+            <li>margin-top</li>
+        </ul>
+        <ul>Data-type:
+            <li>&lt;length&gt;</li>
+            <li>&lt;percentage&gt;</li>
+            <li>Auto</li>
+        </ul>
+    </div>
+    <pre>
+        <code>
+            Relogio de Prioridade:
+            <div class="exemplos">
+            - margin: 12px 16px 10px 20px (Quando <b>Quatro</b> valores a ordem é Top, right, botton e left)
+            - margin: 12px 16px 0; (Quando <b>Três</b> valores a ordem Top (12px), right e left (16px), botton (0px)
+            - margin: 12px 16px; (Quando <b>Dois</b> valores a ordem Top e botton (12px), right e left (16px)
+            - margin: 12px (Quando <b>Um</b> valores a ordem Top, right, botton e left (12px)
+            </div>
+        </code>
+    </pre>
+    <p>** Utilizando a margin para deixa a caixa no meio da pagina <b>(View mobile)</b></p>
+    <pre>
+        <div class="exemplos">
+            Lembrando que margin so funciona em elementos <b>BLOCK</b>
+        </div>
+        <code>
+            .div-exemplo-1 {
+                border: 1px solid red;
+                width: 100px;
+                height: 100px;
+                margin: 50px 140px;
+            }
+        </code>
+    </pre>
+    <div class="div-exemplo-1">
+        div por padrão é block
+    </div>
+    <span class="divisor"></span>
+    <pre>
+        <div class="exemplos">
+            <b>- Auto;</b> Aplica calculos nas laterais dependo do tamanho da tela.
+        </div>
+        <code>
+            .div-exemplo-2 {
+                border: 1px solid red;
+                width: 100px;
+                height: 100px;
+                margin: 0 auto;
+            }
+        </code>
+    </pre>
+    <div class="div-exemplo-2">
+        div por padrão é block
+    </div>
+    <span class="divisor"></span>
+    <pre>
+        <div class="exemplos">
+            <b>- margin-botton;</b> Aplica margin a baixo da caixa.
+        </div>
+        <code>
+            .div-exemplo-3 {
+                border: 1px solid red;
+                width: 100px;
+                height: 100px;
+                margin-bottom: 15px;
+            }
+        </code>
+    </pre>
+    <div class="div-exemplo-3">
+        div por padrão é block
+    </div>
+    <div class="div-exemplo-3">
+        div por padrão é block
+    </div>
+</body>
+</html>

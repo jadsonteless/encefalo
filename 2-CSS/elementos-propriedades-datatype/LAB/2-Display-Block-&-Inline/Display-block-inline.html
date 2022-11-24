@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Display - Block e Inline</h1>
+    <span class="divisor"></span>
+    <p>** CAIXAS BLOCK:</p>
+    <pre>
+        <code>
+            **Block**
+            - Ocupa toda a linha e colocar o proximo elemento abaixo desse.
+            -- width e heigth são respeitados.
+            -- padding, margin, border irão funinar normalmente.
+            <div class="exemplos">
+            Exemplos de BLOCK por PADRAO:
+            &lt;p&gt; &lt;div&gt; &lt;section&gt; e todos os &lt;H1&gt; &lt;H2&gt; ...
+            </div>
+        </code>
+    </pre>
+    <div class="div-block">
+        BLOCK -> Ocupa toda linha colocando o proximo elemento abaixo desse (CAIXA 1)
+    </div>
+    <div class="div-block">
+        BLOCK -> Ocupa toda linha colocando o proximo elemento abaixo desse (CAIXA 2)
+    </div>
+    <span class="divisor"></span>
+    <p>** CAIXAS INLINE:</p>
+    <pre>
+        <code>
+            **Inline**
+            - Elementos ao lado do outro.
+            -- width e heidth <b>NÃO FUNCIONA.</b>
+            -- Valores horizontais de margin e padding funciona.
+            <div class="exemplos">
+            Exemplos de BLOCK por PADRAO:
+            &lt;a&gt; &lt;strong&gt; &lt;span&gt; e &lt;em&gt;
+            </div>
+        </code>
+    </pre>
+    <span class="span-inline">
+        INLINE -> colocar as caixas na mesma linha ao lado (CAIXA 1)
+    </span>
+    <span class="span-inline">
+        INLINE -> colocar as caixas na mesma linha ao lado (CAIXA 2)
+    </span>
+</body>
+</html>

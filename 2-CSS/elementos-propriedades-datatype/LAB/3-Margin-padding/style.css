@@ -1,0 +1,54 @@
+* {
+    color: aliceblue;
+    background-color: black;
+}
+h1 {
+    margin: 1%;
+}
+p {
+    margin: 2rem 1rem 0.5rem 1rem;
+    font-size: 1rem;
+    width: 90vw;
+}
+.divisor {
+    height: 2px;
+    display: flex;
+    margin: 1rem;
+    background-color: #8B008B;   
+}
+.exemplos {
+    color: gold;
+}
+pre {
+    background-color: black;
+    border: 1px solid transparent;
+    margin: 1rem;
+    padding: 0;
+    font-size: 1rem;
+    font-family: Times;
+    width: 80vw;
+    white-space: pre-line;
+}
+.token-seta-direita {
+    color: lime;
+    background-color: #363636;
+}
+/*/////////////////////////////////////////////////////////*/
+.div-exemplo-1 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    margin: 50px 140px;
+}
+.div-exemplo-2 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+.div-exemplo-3 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}

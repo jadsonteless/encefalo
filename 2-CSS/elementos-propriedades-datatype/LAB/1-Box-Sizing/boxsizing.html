@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso do box-sizing</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <h1>Box-sizing</h1>
+    <span class="divisor"></span>
+    <div class="exp1">
+        Borda de 100px
+    </div>
+    <div>
+        <p>Exemplo 01: Mesmo com a configuração de 100px na caixa, apos adicionar conteudo
+            os valores de tamanho e altura da caixa vai alterando se o uso do <code>box-sizing</code></p> 
+        <pre>
+            <code class="word">
+                .exp1 {
+                    width: 100px;
+                    height: 100px;
+                    border: 1px solid red;
+                    margin: 5%;
+                    padding: 0px 20px;
+                }
+            </code>
+        </pre> 
+    </div>
+    <span class="divisor"></span>
+    <div class="exp2">
+        Borda de 100px
+    </div>
+    <div>
+        <p>Exemplo 02: Utilizando <code>box-sizing</code> o tamanho da caixa se permanese fixa idependente do conteudo dentro.</p> 
+        <pre>
+            <code class="word">
+                .exp2 {
+                    width: 100px;
+                    height: 100px;
+                    border: 1px solid red;
+                    margin: 5%;
+                    padding: 0px 20px;
+                    box-sizing: border-box;
+                }
+            </code>
+        </pre> 
+    </div>
+</body>
+</html>
