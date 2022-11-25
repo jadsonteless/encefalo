@@ -1,7 +1,7 @@
 /* CONFIGURAÇÃO GERAL*/
 * {
     color: aliceblue;
-    background-color: #1C1C1C;
+    background-color: #000000;
     margin: 0;
     padding: 0;
 }
@@ -14,7 +14,7 @@
     
 }
 h1 {
-    color: #8B008B;
+    color: #FFFFFF;
     margin: 1%;
 }
 p {
@@ -52,6 +52,7 @@ pre {
 code {
     background-color: #363636;
     color:azure;
+    font-color: red;
 }
 .token-chaves {
     color: #FFFF00;
