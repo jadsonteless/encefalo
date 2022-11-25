@@ -43,7 +43,3 @@ element {
     color: unset; /* -> Pega sua cor inicial (root?) */
 }
 ```
-### Encefalo
-[Ir ao encefalo][def]df
-
-[def]: https://encefalo.vercel.app
