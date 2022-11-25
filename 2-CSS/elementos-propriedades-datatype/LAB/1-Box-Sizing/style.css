@@ -52,6 +52,7 @@ pre {
 code {
     background-color: #363636;
     color:azure;
+    font-color: red;
 }
 .token-chaves {
     color: #FFFF00;
