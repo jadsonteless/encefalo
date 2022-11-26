@@ -44,4 +44,4 @@ element {
 }
 ```
 ### Exemplos:
-[Exemplo 01](/2-CSS/5-Cores/01-exemplo.html)
+[Exemplo 01](https://encefalo.vercel.app/2-CSS/5-Cores/01-exemplo.html)
