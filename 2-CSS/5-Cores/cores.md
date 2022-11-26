@@ -43,3 +43,5 @@ element {
     color: unset; /* -> Pega sua cor inicial (root?) */
 }
 ```
+### Exemplos:
+[Exemplo 01](/2-CSS/5-Cores/01-exemplo.html)

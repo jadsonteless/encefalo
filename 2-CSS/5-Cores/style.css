@@ -1,0 +1,25 @@
+
+p {
+    font-size: 2rem;
+}
+.divisor {
+    height: 2px;
+    display: flex;
+    margin: 1rem;
+    background-color: #8B008B;   
+}
+.caixa-exemplos {
+    width: 300px;
+    height: 200px;
+    border: 1rem solid red;
+    box-sizing: border-box;
+    text-align: center;
+    color: #8B008B;
+    
+}
+/*-------------------------------------------------*/
+h3 {
+    font-size: 1.8rem;
+    color: currentColor;
+   
+}
