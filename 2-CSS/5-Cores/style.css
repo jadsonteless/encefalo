@@ -1,6 +1,7 @@
 
 p {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    color: black;
 }
 .divisor {
     height: 2px;
@@ -11,15 +12,30 @@ p {
 .caixa-exemplos {
     width: 300px;
     height: 200px;
-    border: 1rem solid red;
+    border: 2px solid red;
     box-sizing: border-box;
     text-align: center;
-    color: #8B008B;
-    
 }
 /*-------------------------------------------------*/
 h3 {
     font-size: 1.8rem;
     color: currentColor;
    
+}
+.caixa-exemplos1 {
+    width: 300px;
+    height: 200px;
+    border: 2px solid red;
+    box-sizing: border-box;
+    text-align: center;
+    color: #8B008B;
+    
+}
+.caixa-exemplos2 {
+    width: 300px;
+    height: 200px;
+    border: 2px solid red;
+    box-sizing: border-box;
+    text-align: center;
+    color: #8B008B40;
 }
