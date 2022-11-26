@@ -1,4 +1,4 @@
-# Cores & Background
+# Cores
 
 ## Tipos:
 
@@ -35,7 +35,7 @@ element {
     color: rgb(255, 0, 0, 0.6); /* (alfa em porcentagen) Vermelho intenso e um pouco transparente */
     
     /* <hsl()> values (rgb(hue-saturação-luz-alfa) de 0 - 255) */
-    color: rgb(30, 100%, 50%, 20%); /* 30 graus - 100% de saturation - 50% iluminação - 20% de transparencia */
+    color: hsl(30, 100%, 50%, 20%); /* 30 graus - 100% de saturation - 50% iluminação - 20% de transparencia */
 
     /* Blobal values */
     color: inherit; /* -> Herda a cor do elemento interior */
