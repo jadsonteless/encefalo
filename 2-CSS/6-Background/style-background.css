@@ -1,0 +1,62 @@
+* { margin: 0; color: white; font-size: 1.5rem;}
+
+header {
+    height: 500px;
+    /*AUMENTA A BORDA NA VERTICAL (Y): */
+
+    border: 15px dashed red;
+    /* CRIA A BORDA VISUAL: 
+    #border: primeiro(tamanho), segundo(estilo), terceiro(cor) */
+
+    background-color: hsl(10, 100%, 30%, 0.4);
+    /* TRABALHANDO COM A PROPRIEDADE BACKGROUND */
+
+    background-image: url(https://avatars.githubusercontent.com/u/28929274?s=280&v=4);
+    /* COLOCANDO IMAGEMS COMO BACKGROUND */
+
+    background-repeat: no-repeat;
+    /* CANCELANDO A REPITAÇÃO DE IMAGEMS */
+    /* IMAGEMS SE REPETE NO EIXO HORIZONTAL (x):
+    background-repeat: repeat-x; */
+    /* IMAGEM SE REPETE NO EIXO VERTICAL (Y):
+    background-repeat: repeat-y; */
+
+    background-position: center;
+    /* MUDANDO A POSIÇÃO DA IMAGEMS:
+    #center etc..: SOMENTE UM VOLUE VAI SER USADO X - Y.
+    #exemplos de alteração com dois valores:
+    background-position: center bottom;*/
+
+    background-size: contain;
+    /* MUDANDO O TAMANHO DA IMAGEMS:
+    #contain: imagens se ajusta dentro da caixa (esticando ou encolhendo).
+    #cover: imagens se expande para preencher toda a caixa.
+    #X% Y%: muda manualmente o tamanho da imagem x= horizontal e y= vertical.
+    #auto: ajusta automaticamente ambos os lados ou um unico lado ({ex: 50% auto;).
+    #values compatoveis: px, em, rem, %. */
+
+    background-origin: padding-box;
+    /* ALTERANDO PREENCHIMENTO DA IMAGENS DENTRO OU FORA DAS BORDAS:
+    #border-box: preenche todo o especo da caixa ultrapassando a GROSSURA da borda.
+    #content-box: prenche todo o espaço da caixa RESPEITANDO a grossura da borda.
+    #padding-box: preenche todo o especo da caixa ultrapassando a GROSSURA da padding. */
+    padding: 16px; 
+    /*##padding adicionado para demostração do padding-box: */
+
+    background-clip: padding-box;
+    /* ESCONDENDO OS VALORES ANTES DA VALUE CLIPADO:
+    #boorder-box;
+    #content-box;
+    #padding-box. */
+}
+
+main {
+        height: 500px;
+        border: 15px dashed red;
+        background: hsl(10, 100%, 30%, 0.4) url(https://avatars.githubusercontent.com/u/28929274?s=280&v=4) no-repeat center / contain border-box content-box /*fixed*/ ;
+
+        background-attachment: fixed;
+        /*ALTERA MOVIMENTAÇÃO DA IMAGEM AO ROLAR A PAGINAR:display:
+        #fixed: imagens se torna fixa (não rola junto com a pagina).
+        #scroll: rola junto com a pagina (jà é PADRÃO do propriendade BACKGROUD). */
+}
