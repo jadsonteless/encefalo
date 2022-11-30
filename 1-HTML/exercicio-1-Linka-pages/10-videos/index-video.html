@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <video controls width="800px" height="500px">
+        <!-- PROPRIEDADES ADICIONADAS DETRO DO ELEMENTO <VIDEO ... >: 
+            ## controls :para o player roda na pagina.
+            ## width="" :largura.
+            ## height="" :altura. 
+            ## autoplay :inicia automaticamente (alguns navegadores restrigi esse propriedade). 
+            ## preload="" :inicia o download antes que clique no player. 
+                ### "auto" :inicia o download automaticamente. 
+                ### "metadata" :só baixa o basico para se entender o conteudo.
+                ### "none" :não carrega NADA antes de clicar no botão. 
+            ## loop :repete o video quando terminar (depende do browser)
+            ## muted :video inicia mutado.
+            ## poster="./imag.png" :adiciona imagem não do player no video. -->
+        <source src="./leitor-de-código-de-barras-e-qrcode-com-python.mp4" type="video/mp4">
+        <!-- TAG <VIDEO> UTILIZADO PARA ADICONAR VIDEOS:
+            ## src="" puxe o video.
+            ## <souser> forma mais complenta de monta o player na pagina (caso não rode em algum browser)
+            ## type="" para descrever o tipo de arquivo contido no src. -->
+        <p>Este brownser não suporta video!</p>
+        <!-- Messagem que aparecerar caso o playr de video não funcione. -->
+    </video>
+</body>
+</html>
