@@ -1,0 +1,57 @@
+/*
+    # TIPOS DE PAGE LAYOUTS:
+    - Tables
+    - Floats e clear
+    - Flameworks e Grid Systems
+    - Flexbox !Mais utilizado
+    - Grid !Mais utilizado
+*/
+.box {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+}
+.box1 {
+    background-color: red;
+
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    z-index: 3;
+    /*
+        # VALORES DA PROPRIEDADE POSITION:
+        ## static; (Por padrão na ausência da propriedade os elementos vem static).
+        ## relative; (O elemento se posiciona relativamente a pagiona).
+        ## absolute; (É como se criase uma camada acima para o elemento).
+        ## fixed; (deixa o elemento fixo na pagina).
+
+        # PROPRIEDADES COMPATIVEIS C/ POSITION:
+        ## top:
+        ## botton:
+        ## right:
+        ## left: 
+        ## z-index:
+            - Impilha os elementos na orden descrita no valor.
+                Exemplo: div1 { z-index; 3; }
+                         div2 { z-index; 2; }
+                         div3 { z-index; 1; }
+    */
+}
+.box2 {
+    background-color: yellow;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 2;
+}
+.box3 {
+    background-color: green;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    z-index: 1;
+}
+.box4 {
+    position: relative;
+    top: 80px;
+}

@@ -26,6 +26,7 @@ p {
     display: inline; /* muda o compartamento da propriedade(inline passa a ser block) */
 }
 /*
+!TRABALHA COM INTERAÇÕES COM OUTRAS CAIXAS E NÃO COM OQUE ESTA DENTRO DAS CAIXA PARA ISSO É O "FLEXBOX E GRID"
 
 **Block**
 - Ocupa toda a linha e colocar o proximo elemento abaixo desse.

@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    margin: 0;
+
+    display: grid;
+    /*Adicioan o grid ao body*/
+
+    grid-template-areas: /*adiciona as função de criar as areas*/
+        "header header" /* "1 2" cria as areas com lado direiro e esquedor ("direito esquerdo") */
+        "main aside" /*area 2*/
+        "footer footer"; /*area 3*/
+
+    grid-template-rows: 45px /*linha 1*/ 1fr /*linha 2*/ 40px /*linha 3*/; /* "rows = linhas" determina o tamanho das linhas que vai ocupar na pagina. */
+
+    grid-template-columns: 4fr /*coluna 1*/ 1fr /*coluna 2*/; 
+}
+header {
+    grid-area: header; /*informa ao {grid-template-areas:} qual areas essa caixa filho (body caixa pai) vai ocupar. */
+    background-color: green;
+
+    /*DEMOSTRANDO QUE É POSSIVEL USAR O FLEXBOX E GRID JUNTOS:*/
+        display: flex;
+        justify-content: space-between; /*aplica um espaço entre as caixas. */
+        align-items: center; /*alinha as caixa no eixo "x" (heigth) */
+        padding: 0 16px; /*apliquei so para dar uma espaço nas laterais. */
+}
+main {
+    grid-area: main;
+    background-color: red;
+}
+aside {
+    grid-area: aside;
+    background-color: blue;
+}
+footer {
+    grid-area: footer;
+    background-color: gray;
+}
