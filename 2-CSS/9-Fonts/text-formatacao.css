@@ -1,0 +1,47 @@
+p {
+    font-size: 2rem;
+    font-family: 'Kenia', cursive;
+
+    word-spacing: 2rem;
+    /*  word-spacing: 2rem; # Aplica espaços entre PALAVRAS. 
+        letter-spacing: 2rem; # Aplica espacos entre as LETRAS. */
+
+    line-height: 2;
+    /*  line-height: 1.5; # Aplica espacos entre LINHAS. */
+
+    text-transform: none;
+    /*  ## uppercase; "Todas as letras fica MAIUSCULA"
+        ## lowercase; "Todas as letras ficam MINUSCULA"
+        ## capitalize; "Letras INICIAIS fica Maiuscula"
+        ## none; "NÂO aplica nenhum configuração" */
+    
+    text-decoration: line-through solid red;
+    /*  # PROPRIEDADE text-decorantion "SHORTHAND"
+        # 1 VALORES:
+        ## nderline; "sublinha linha ABAIXO da texto"
+        ## overline; "sublinha linha ACIMA do texto"
+        ## line-through; "RISCA o texto"
+        !! Podemos aplicar mais de uma VALOR.
+
+        # 2 STILOS DOS VALORES:
+        ## wavy; "ondas"
+        ## dashed; "tracejado"
+        ## dotted; "linha de pontinhos"
+        ## solid; "Linha normal (PADRÃO)"
+
+        # 3 APLICAR CORES:
+        ## red; "aplica cor vermelha" */
+
+    text-align: justify;
+    /*  # PROPRIEDADE text-aling
+        # 1 VALORES:
+        ## center; "deixa o texno centralizado"
+        ## right; "coloca texto a sua direita"
+        ## left; "coloca texto a sua exquerada (padrão)"
+        ## justify; "justifica o texto ao tamanho da pagina" */
+
+    text-shadow: 1px 1px 1px red;
+    /*  # PROPRIEDADE: text-shadow (podemos adicionar multiplos valores)
+        # 1 VALORES:
+        ## text-shadow: 1px (widht) 1px (height) 1px (embaço) red; (cor) */
+}
