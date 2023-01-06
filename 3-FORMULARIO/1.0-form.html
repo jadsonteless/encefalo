@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--    Primeiro passo definir a tag <form> 
+            <form> (é estilo um contaier <section> ou <footer>)
+            
+            # ATRIBUTOS:
+            ## action="" (pra onde os dados serão submetidos)
+            ## method="" (define o tipo de formato de verdo que sera enviado)
+                - POST (dados do imputs preenchidos não aparece na URL)
+                - GET (dados do imputs preenchidos aparecem na URL)
+            
+            ## <Fieldset>
+                - agrupa campos com o mesmo proposito
+                - mais semântico
+            
+            # ATRIBUTOS ESPECIAIS:
+            ## disabled
+                - desabilita todos os elementos do fieldset
+                - não serão enviados ao submeter o formulario
+            ## form
+                - permite colocar um id no formulario ao qual o fieldset pertence
+                    - form="nome do id no fieldset"
+                    - id="nome do id no formulario"
+                - não precisa esta dentro do formulario
+            ## name
+                - nome do agrupamento que NÃO vai aparecer no formulario 
+                - primeiro elemento detro do fieldset
+            ## legend
+                - nome do agrupamento que vai aparecer no formulario 
+                - primeiro elemento detro do fieldset
+            ## label
+                - nome que aparecerar no formulario
+            ## ID e Form
+                - conecta inputs ou formularios com suas bases
+                    - so funciona: <button> <input> <meter> <output> <progress> <seletc> <textare>
+            ## input
+                - id="" /Para fazer conexao com a base
+                - type="" /Descreve tipo do conteudo do input
+                    - text
+                - volue="" /Texto que fica dentro do input
+            ## Button
+                ### Sub Atributos
+                        - type="" 
+                            - submit (envia dados) 
+                            - reset (limpa formulario)
+                        - autofocus /Da foco ao button com esse atributo (botao enter com acionado ja vai clicar no botao com autofocus)
+                        - disable /Desativa o button
+                        - form="" /linka o button a um formulario com o mesmo id
+    -->
+</body>
+    <form id="contato" action="" method="">
+        <button type="submit" autofocus>Enviar</button>
+    </form>
+
+
+    <fieldset form="reset" name="agrupamento-contatos" > <!-- n -->
+        <legend>Contato</legend>
+        <label for="nome">Nome</label>
+        <input id="nome" type="text" value="Seu nome completo">
+    </fieldset>
+
+</html>

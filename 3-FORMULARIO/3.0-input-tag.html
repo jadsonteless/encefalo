@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        ATRIBUTOS COMUNS <input>
+        #Type
+            ##type="text"
+            ##type="email"
+            ##type="color"
+            ##type="passord"
+        #autocomplete (cria hístoricos para autocompletar)
+                - autocomplete="email" (vai autocompletar email já utilizados)
+        #autofocus (da foco a um <input> "deve apenas ter um por pagina")
+                - tipo bulear 
+        #disabled (desabilita o <input> "mas permanece visivel")
+                - tipo bulear 
+            ##readonly (mesma coisa do disabled com aspecto diferente) --! Pega em quase todos type.
+                - tipo bulear 
+        #value (adiciona valor que fica visivel dentro do <input>)
+                - value="digite texto aqui"
+        #form (linka o <input> com algum formulário) --! Pega em quase todos type.
+                - form="formulario01"
+                    obs: seguinificar que temos em algum lugar um formulário para receber o dados do <input>
+                        ex: <form id="formulario01"></form> formulário que irar receber o dado do <input>
+        #name (descreve a que se refere o <input>)
+                - name="data de nescimento"
+        #required (norma o preenchimento do <input> obrigatorio) --! Pega em quase todos type.
+                - tipo bulear
+        #placeholder ( pareceido com o value porém quando inicia o preenchimento o texto some)
+                - placeholder="Digite sua senha aqui"
+    -->
+    <label for="senha">Senha</label>
+    <input id="senha" type="password" required placeholder="Digite sua senha">
+</body>
+</html>

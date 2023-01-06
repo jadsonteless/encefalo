@@ -1,0 +1,17 @@
+<!--
+    ATRUBUTOS DO TYPE EMAIL
+    - type="email" (requere email valido degitado no input)
+    - multiple (permite colocar um ou mais emails separados por virgulas)
+    - pattern="0" (valida o input com as expressões programadas)
+        * Exemplo: so vai aceitar emails do tipo gmail com .br no final:
+                    pattern=".+@gmail\.com\.br" (. qualquer coisa + junto com oque vem a seguir \. pra aceitar o ponto)
+    - <datalist> (para criar uma lista de email surgeridos)
+        # list="nome do id" (linka o <input> com a <datalist>)
+-->
+<form action="">
+    <datalist id="emailslist">
+        <option>jadsonteste@gmail.com.br</option>
+    </datalist>
+    <input type="email" placeholder="Email" multiple pattern=".+@gmail\.com\.br" title="Somente emails gmail.com.br serão aceitos!" list="emailslist">
+    <button type="submit">Enviar</button>
+</form>
